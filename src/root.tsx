@@ -19,7 +19,9 @@ export default component$(() => {
     <QwikCity>
       <head>
         <meta charSet="utf-8" />
-        {/* <title>Welcome</title> */}
+        <meta name="description" content="Sample Qwik App" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to Qwik</title>
         <RouterHead />
       </head>
       <body lang="en">
